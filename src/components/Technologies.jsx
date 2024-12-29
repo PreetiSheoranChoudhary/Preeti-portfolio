@@ -8,7 +8,7 @@ import { FaNodeJs } from 'react-icons/fa';
 import {motion} from 'framer-motion'
 
 function Technologies() {
-    const iconVariants = (duration) => ({
+    const iconVariants= (duration) => ({
         initial: { y: -10},
         animate: { 
             y: [10,-10],

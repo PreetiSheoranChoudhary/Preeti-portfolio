@@ -39,7 +39,7 @@ function Profile() {
                             variants={container(1)}
                             initial="hidden"
                             animate="visible"
-                            className='py-6 my-2 max-w-xl font-light tracking-tighter'>
+                            className='py-6 my-2 max-w-xl text-neutral-400'>
                             {HERO_CONTENT}
                         </motion.p>
                     </div>

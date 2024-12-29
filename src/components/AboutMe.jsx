@@ -1,5 +1,5 @@
 import React from 'react'
-import aboutImg from '../assets/about.jpg'
+import aboutImg from '../assets/aboutMe.jpg'
 import { ABOUT_TEXT } from '../constants';
 import { motion } from 'motion/react'
 function AboutMe() {
@@ -24,7 +24,7 @@ function AboutMe() {
                 transition={{duration:0.5}}
                 className='w-full lg:w-1/2'>
                     <div className='flex justify-center lg:justify-start'>
-                        <p className=' my-2 max-w-xl py-6 font-light tracking-tighter'>
+                        <p className=' my-2 max-w-xl py-6 text-neutral-400  '>
                             {ABOUT_TEXT}
                         </p>
                     </div>
