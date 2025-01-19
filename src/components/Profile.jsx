@@ -1,6 +1,6 @@
 import React from 'react'
 import { HERO_CONTENT } from '../constants';
-import profilePic from '../assets/kevinRushProfile.png'
+import profilePic from '../assets/profile.png'
 import { motion } from 'motion/react'
 
 
@@ -52,7 +52,8 @@ function Profile() {
                             transition={{ duration: 1, delay: 1.2 }}
                             src={profilePic}
                             alt="preeti"
-                            className=''></motion.img>
+
+                            className='h-[500px] w-[400px] rounded-xl'></motion.img>
                     </div>
                 </div>
             </div>
